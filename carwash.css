@@ -1,0 +1,56 @@
+body{
+    background-color:lightblue;
+}
+div{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+}
+.btn{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-sizing: content-box;
+    color:black;
+    background-color:white;
+    
+}
+.btn:hover {background-color: lightblue;}
+.a{
+    padding: 5px;
+}
+p{
+    text-align: center;
+    padding: none;
+    margin: none;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    box-sizing: content-box;
+}
+label{
+    padding: 10px;
+    margin: 10px;
+}
+input {
+    display: table-cell;
+    vertical-align: middle
+}
+.table{
+   border: 1px solid;
+   width:98%;
+   padding: 10px;
+   margin: 25px;
+   border-collapse: collapse;
+   background-color: white;
+}
+th{
+    height: 70px;
+}
+
+td{
+    text-align: center;
+}
+tr:hover {background-color:lightblue;}

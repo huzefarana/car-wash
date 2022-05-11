@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Wash Station</title>
+    <link rel="stylesheet" href="carwash.css">
+    <script src="carwash.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Vehicle Wash Station</h1>
+    </div>
+    <hr>
+    <form class="form">
+        <div class="a">
+            <label for="Vehicle Number" class="label">Vehicle Number</label> <br>
+            <input type="text" name="Vehicle Number" placeholder="Enter vehicle number" class="input">
+        </div>
+        <div>
+            <p>Select Vehicle Type</p>
+        </div>
+        <div class="formcheck">
+            <input class="form-check-input" type="radio" name="exampleRadios"  value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Bike
+            </label>
+          </div>
+          <div class="formcheck">
+            <input class="form-check-input" type="radio" name="exampleRadios" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Car
+            </label>
+          </div>
+          <div class="btnn">
+            <button class="btn" type="button">Add To list</button>
+          </div>
+      </form>
+      <div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Vehicle Number</th>
+            <th scope="col">Vehicle Type</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>AVX-221</td>
+            <td>Car</td>
+            <td>500 pkr</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>KGZ-6700</td>
+            <td>Bike</td>
+            <td>200 pkr</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>ART-817</td>
+            <td>Car</td>
+            <td>500 pkr</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+</html>
