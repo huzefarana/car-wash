@@ -6,20 +6,6 @@ div{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:black;
 }
-.btn{
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    box-sizing: content-box;
-    color:black;
-    background-color:white;
-    
-}
-.btn:hover {background-color: lightblue;}
-.a{
-    padding: 5px;
-}
 p{
     text-align: center;
     padding: none;
@@ -42,7 +28,9 @@ input {
    border: 1px solid;
    width:98%;
    padding: 10px;
-   margin: 25px;
+   margin: 70px;
+   position: absolute;
+   right: -50px;
    border-collapse: collapse;
    background-color: white;
 }
@@ -54,3 +42,17 @@ td{
     text-align: center;
 }
 tr:hover {background-color:lightblue;}
+.button{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-sizing: content-box;
+    color:black;
+    background-color:white;
+    margin: 20px;
+    position: absolute;
+    top: 33%;
+    left: 46%;
+}
+.button:hover {background-color: lightblue;}

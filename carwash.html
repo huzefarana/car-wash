@@ -13,31 +13,28 @@
         <h1>Vehicle Wash Station</h1>
     </div>
     <hr>
-    <form class="form">
+    <form class="form" id="table">
         <div class="a">
-            <label for="Vehicle Number" class="label">Vehicle Number</label> <br>
-            <input type="text" name="Vehicle Number" placeholder="Enter vehicle number" class="input">
-        </div>
-        <div>
+            <label  for = "Vehicle Number" class = "label">Vehicle Number</label> <br>
+            <input id = "plate_field" type="text" name = "Vehicle Number" placeholder="ABC-123" class="input" required><br>
             <p>Select Vehicle Type</p>
         </div>
         <div class="formcheck">
-            <input class="form-check-input" type="radio" name="exampleRadios"  value="option1" checked>
-            <label class="form-check-label" for="exampleRadios1">
+            <input class = "form_check_input" type="radio" name = "exampleRadios"  value="200 pkr" onclick="" checked>
+            <label class = "form_check_label" for = "exampleRadios1">
               Bike
             </label>
           </div>
           <div class="formcheck">
-            <input class="form-check-input" type="radio" name="exampleRadios" value="option2">
-            <label class="form-check-label" for="exampleRadios2">
+            <input class = "form_check_input" type = "radio" name="exampleRadios" value = "500 pkr" onclick="">
+            <label class = "form_check_label" for = "exampleRadios2">
               Car
-            </label>
-          </div>
-          <div class="btnn">
-            <button class="btn" type="button">Add To list</button>
-          </div>
+            </label>  
+            </div>
+            
       </form>
-      <div>
+      <button class="button" type="button" onclick="getdata()">SUBMIT</button> 
+      <!-- <div>
       <table class="table">
         <thead>
           <tr>
@@ -68,5 +65,6 @@
           </tr>
         </tbody>
       </table>
-      </div>
+      </div> -->
+</body>
 </html>
