@@ -56,3 +56,17 @@ tr:hover {background-color:lightblue;}
     left: 46%;
 }
 .button:hover {background-color: lightblue;}
+.button2{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-sizing: content-box;
+    color:black;
+    background-color:white;
+    margin: 30px;
+    position: absolute;
+    top: 37%;
+    left: 45%;
+}
+.button2:hover {background-color: lightblue;}

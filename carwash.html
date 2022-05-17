@@ -20,22 +20,23 @@
             <p>Select Vehicle Type</p>
         </div>
         <div class="formcheck">
-            <input class = "form_check_input" type="radio" name = "exampleRadios"  value="200 pkr" onclick="" checked>
+            <input class = "form_check_input" type="radio" name = "exampleRadios"  value="bike" onclick="" checked>
             <label class = "form_check_label" for = "exampleRadios1">
               Bike
             </label>
           </div>
           <div class="formcheck">
-            <input class = "form_check_input" type = "radio" name="exampleRadios" value = "500 pkr" onclick="">
+            <input class = "form_check_input" type = "radio" name="exampleRadios" value = "car" onclick="">
             <label class = "form_check_label" for = "exampleRadios2">
               Car
             </label>  
             </div>
             
       </form>
-      <button class="button" type="button" onclick="getdata()">SUBMIT</button> 
-      <!-- <div>
-      <table class="table">
+      <button class="button" type="button" onclick="addVehicle()">SUBMIT</button> 
+      <button class="button2" type="button" onclick="washedVehicle()">Next Car</button> 
+      <div>
+      <table class="table" id = "table">
         <thead>
           <tr>
             <th scope="col">#</th>
@@ -44,27 +45,9 @@
             <th scope="col">Price</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>AVX-221</td>
-            <td>Car</td>
-            <td>500 pkr</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>KGZ-6700</td>
-            <td>Bike</td>
-            <td>200 pkr</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>ART-817</td>
-            <td>Car</td>
-            <td>500 pkr</td>
-          </tr>
+        <tbody id="my_table">
         </tbody>
       </table>
-      </div> -->
+      </div>
 </body>
 </html>
