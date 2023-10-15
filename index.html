@@ -4,15 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vehicle Wash Station</title>
+    <link rel="stylesheet" href="carwash.css">
+    <script src="carwash.js"></script>
 </head>
 <body>
-    <p class="test"></p>
-<p class="test">23</p>
-
-<script>
-document.getElementsByClassName("test")[1].innerHTML
- = "Hello";
-</script>
+    <div>
+        <h1>Vehicle Wash Station</h1>
+    </div>
+    <hr>
+    <form class="form" id="table">
+        <div class="a">
+            <label  for = "Vehicle Number" class = "label">Vehicle Number</label> <br>
+            <input id = "plate_field" type="text" name = "Vehicle Number" placeholder="ABC-123" class="input" required><br>
+            <p>Select Vehicle Type</p>
+        </div>
+        <div class="formcheck">
+            <input class = "form_check_input" type="radio" name = "exampleRadios"  value="bike" onclick="" checked>
+            <label class = "form_check_label" for = "exampleRadios1">
+              Bike
+            </label>
+          </div>
+          <div class="formcheck">
+            <input class = "form_check_input" type = "radio" name="exampleRadios" value = "car" onclick="">
+            <label class = "form_check_label" for = "exampleRadios2">
+              Car
+            </label>  
+            </div>
+            
+      </form>
+      <button class="button" type="button" onclick="addVehicle()">SUBMIT</button> 
+      <button class="button2" type="button" onclick="washedVehicle()">Next Car</button> 
+      <div>
+      <table class="table" id = "table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Vehicle Number</th>
+            <th scope="col">Vehicle Type</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody id="my_table">
+        </tbody>
+      </table>
+      </div>
 </body>
 </html>
